@@ -1,5 +1,5 @@
 # portaits-du-monde
-Projet étudiant MMI BORDEAUX- Atelier Couleur
+<p>Projet étudiant MMI BORDEAUX- Atelier Couleur</p>
 https://portraitsdumonde.netlify.app/
 
 ## Membres de l'équipe
