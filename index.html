@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
+
+<head>
     <title>Portraits du Monde</title>
     <meta charset="utf-8" />
     <meta name="description" content="Bienvenue sur Portraits du Monde." />
     <link rel="stylesheet" type="text/css" href="fonts.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="home">
-      <h1>PORTRAITS DU MONDE</h1>
-      <hr />
-      <img src="./assets/home.jpg" alt="saturnio" />
-      <svg class="quotes" width="190" height="190" viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <h1>PORTRAITS DU MONDE</h1>
+        <hr />
+        <img src="./assets/home.jpg" alt="saturnio" />
+        <svg class="quotes" width="190" height="190" viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.8">
           <path
             d="M60.8113 87.5718C56.1317 86.2245 51.4521 85.5409 46.9 85.5409C39.8707 85.5409 34.0052 87.1473 29.4572 89.1144C33.8418 73.0625 44.3749 45.3653 65.3573 42.2462C67.3005 41.9572 68.8929 40.5521 69.4231 38.6608L74.009 22.2581C74.3956 20.8709 74.1664 19.3861 73.3752 18.1823C72.584 16.9785 71.3124 16.1753 69.8874 15.98C68.3389 15.7688 66.7604 15.6611 65.1959 15.6611C40.0102 15.6611 15.0676 41.9493 4.54249 79.5897C-1.63585 101.673 -3.4475 134.873 11.7712 155.769C20.2873 167.463 32.7118 173.707 48.6997 174.331C48.7655 174.333 48.8293 174.335 48.895 174.335C68.6219 174.335 86.1145 161.049 91.4359 142.03C94.6148 130.659 93.1778 118.735 87.3861 108.445C81.6562 98.2704 72.2193 90.8544 60.8113 87.5718Z"
@@ -27,220 +28,116 @@
           />
         </g>
       </svg>
-      <h2>Photographier c’est mettre sur la même ligne de mire la tête, l’oeil et le coeur.”</h2>
-      <span class="author">Henri Cartier-Bresson</span>
-      <svg class="mouse" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <h2>Photographier c’est mettre sur la même ligne de mire la tête, l’oeil et le coeur.”</h2>
+        <span class="author">Henri Cartier-Bresson</span>
+        <svg class="mouse" width="52" height="33" viewBox="0 0 52 33" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line x1="2.11325" y1="2.21699" x2="25.8964" y2="30.5606" stroke="#FFFBF7" stroke-width="3" stroke-linecap="round"/>
         <line x1="49.8401" y1="2.11325" x2="26.057" y2="30.4569" stroke="#FFFBF7" stroke-width="3" stroke-linecap="round"/>
-        </svg>        
+        </svg>
     </div>
     <div class="first">
-      <h3 class="subtitle">L’afghane aux yeux verts - Steve Mc Curry</h3>
-      <div class="cursors">
-        <img src="./assets/afghane.jpg" id="afghane" alt="Afghane" />
-        <div class="right-text">
-          <h4 id="title1">Faites vos propres réglages !</h4>
-          <div class="settings afghane-settings">
-            <label>Luminosité</label>
-            <input
-              class="slider"
-              id="luminosite"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#afghane', 'afghane-settings')"
-              data-filter="brightness"
-              data-scale="%"
-            /><br />
-            <label>Contraste</label>
-            <input
-              class="slider"
-              id="contraste"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#afghane', 'afghane-settings')"
-              data-filter="contrast"
-              data-scale="%"
-            /><br />
-            <label>Saturation</label>
-            <input
-              class="slider"
-              id="saturation"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#afghane', 'afghane-settings')"
-              data-filter="saturate"
-              data-scale="%"
-            /><br />
-            <label>Sépia</label>
-            <input
-              class="slider"
-              id="sepia"
-              type="range"
-              min="0"
-              max="100"
-              value="0"
-              step="1"
-              onchange="applyFilter('#afghane', 'afghane-settings')"
-              data-filter="sepia"
-              data-scale="%"
-            /><br />
-          </div>
-          <h4 id="title3">Quelques informations</h4>
-          <p>
-            Prise en 1984 dans le camp de réfugié de Nasir Bagh au nord du Pakistan par Steve Mc Curry, “L’afgane aux yeux verts”, “La jeune fille aux yeux verts” ou encore “La fille Afghane”, est l’une des   photographies les plus célèbre au monde.
-Ayant perdu ses parents à l’âge de 6 ans lors du conflit Afghan et soviétique qui dure depuis 1979, Sharbat Gula fuie à son pays à pied et se réfugie au Pakistan avec sa grand-mère et son frère.
-<br><br>
-La fille afghane perce l’objectif de son regard vert. Un sentiment de peur se dégage de la photo. L’espace d’un instant, le spectateur se retrouve plongé émotionnellement dans une vie radicalement différente, une vie de réfugié. 
-<br><br>
-Depuis sa parution sur National Geographic en juin 1985, elle est devenue le symbole des réfugiés afghans.
-          </p>
-          <h4>Couleurs principales</h4>
-          <div class="colors">
-            <div class="green" data-hover="Hunter Green - #05562D"></div>
-            <div class="red" data-hover="Chestnut - #9F4734"></div>
-            <div class="skin" data-hover="Antique Brass - #CA9073"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-     <div class="second">
-        <div class="left-text">
-            <div class="cursors">
-                <h3 class="subtitle2" id="marocantrait">Souk de Boumia, Moyen Atlas - Leïla Alaoui</h3>
+        <h3 class="subtitle">L’afghane aux yeux verts - Steve Mc Curry</h3>
+        <div class="cursors">
+            <img src="./assets/afghane.jpg" id="afghane" alt="Afghane" />
+            <div class="right-text">
+                <h4 id="title1">Faites vos propres réglages !</h4>
+                <div class="settings afghane-settings">
+                    <label>Luminosité</label>
+                    <input class="slider" id="luminosite" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#afghane', 'afghane-settings')" data-filter="brightness" data-scale="%" /><br />
+                    <label>Contraste</label>
+                    <input class="slider" id="contraste" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#afghane', 'afghane-settings')" data-filter="contrast" data-scale="%" /><br />
+                    <label>Saturation</label>
+                    <input class="slider" id="saturation" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#afghane', 'afghane-settings')" data-filter="saturate" data-scale="%" /><br />
+                    <label>Sépia</label>
+                    <input class="slider" id="sepia" type="range" min="0" max="100" value="0" step="1" onchange="applyFilter('#afghane', 'afghane-settings')" data-filter="sepia" data-scale="%" /><br />
+                </div>
+                <h4 id="title3">Quelques informations</h4>
+                <p>
+                    Prise en 1984 dans le camp de réfugié de Nasir Bagh au nord du Pakistan par Steve Mc Curry, “L’afgane aux yeux verts”, “La jeune fille aux yeux verts” ou encore “La fille Afghane”, est l’une des photographies les plus célèbre au monde. Ayant perdu ses
+                    parents à l’âge de 6 ans lors du conflit Afghan et soviétique qui dure depuis 1979, Sharbat Gula fuie à son pays à pied et se réfugie au Pakistan avec sa grand-mère et son frère.
+                    <br><br> La fille afghane perce l’objectif de son regard vert. Un sentiment de peur se dégage de la photo. L’espace d’un instant, le spectateur se retrouve plongé émotionnellement dans une vie radicalement différente, une vie de réfugié.
+                    <br><br> Depuis sa parution sur National Geographic en juin 1985, elle est devenue le symbole des réfugiés afghans.
+                </p>
+                <h4>Couleurs principales</h4>
+                <div class="colors">
+                    <div class="green" data-hover="Hunter Green - #05562D"></div>
+                    <div class="red" data-hover="Chestnut - #9F4734"></div>
+                    <div class="skin" data-hover="Antique Brass - #CA9073"></div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="second">
+        <h3 class="subtitlesecond" id="marocantrait">Souk de Boumia, Moyen Atlas - Leïla Alaoui</h3>
+
         <div class="cursors">
-        <div class="left-text">
-          <h4 id="title1">Faites vos propres réglages !</h4>
-          <div class="settings settings-maroc">
-            <label>Luminosité</label>
-            <input
-              class="slider"
-              id="luminosite"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#maroc', 'settings-maroc')"
-              data-filter="brightness"
-              data-scale="%"
-            /><br />
-            <label>Contraste</label>
-            <input
-              class="slider"
-              id="contraste"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#maroc', 'settings-maroc')"
-              data-filter="contrast"
-              data-scale="%"
-            /><br />
-            <label>Saturation</label>
-            <input
-              class="slider"
-              id="saturation"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#maroc', 'settings-maroc')"
-              data-filter="saturate"
-              data-scale="%"
-            /><br />
-            <label>Sépia</label>
-            <input
-              class="slider"
-              id="sepia"
-              type="range"
-              min="0"
-              max="100"
-              value="0"
-              step="1"
-              onchange="applyFilter('#maroc', 'settings-maroc')"
-              data-filter="sepia"
-              data-scale="%"
-            /><br />
-          </div>
-          <h4 id="title3">Quelques informations</h4>
-          <p>
-            Ce portrait est issu d’une série de photos baptisée “Les Marocains” réalisée aux 4 coins du Maroc en 2011. L’artiste franco-marocaine, Leïla Alaoui a voulu apporter un regard tout particulier aux identités culturelles et à la migration.
-La photographe a ainsi opté pour des portraits pris sur le vif, dénués de touts artifices, pour montrer le vrai visage du Maroc.
-Des réfugiés syriens au Liban aux immigrants marocains prêts à  risquer leur vie pour rejoindre l’autre rive de la Méditerranée, un regard suffit parfois pour se plonger dans l’histoire et les émotions des sujets photographiés.
-<br><br>
-“Puisant dans mon propre héritage, j’ai séjourné au sein de diverses communautés et utilisé le filtre de ma position intime de Marocaine de naissance pour révéler, dans ces portraits, la subjectivité des personnes que j’ai photographiées.“
-          </p>
-          <h4>Couleurs principales</h4>
-          <div class="colors">
-            <div class="green2" data-hover="Dark Slate Gray - #3B5A5D"></div>
-            <div class="red2" data-hover="Ruby Red - #96232A"></div>
-            <div class="skin2" data-hover="Tuscany - #B79894"></div>
-          </div>
+            <div class="left-text">
+                <h4 id="title1">Faites vos propres réglages !</h4>
+                <div class="settings settings-maroc">
+                    <label>Luminosité</label>
+                    <input class="slider" id="luminosite" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#maroc', 'settings-maroc')" data-filter="brightness" data-scale="%" /><br />
+                    <label>Contraste</label>
+                    <input class="slider" id="contraste" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#maroc', 'settings-maroc')" data-filter="contrast" data-scale="%" /><br />
+                    <label>Saturation</label>
+                    <input class="slider" id="saturation" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#maroc', 'settings-maroc')" data-filter="saturate" data-scale="%" /><br />
+                    <label>Sépia</label>
+                    <input class="slider" id="sepia" type="range" min="0" max="100" value="0" step="1" onchange="applyFilter('#maroc', 'settings-maroc')" data-filter="sepia" data-scale="%" /><br />
+                </div>
+                <h4 id="title3">Quelques informations</h4>
+                <p>
+                    Ce portrait est issu d’une série de photos baptisée “Les Marocains” réalisée aux 4 coins du Maroc en 2011. L’artiste franco-marocaine, Leïla Alaoui a voulu apporter un regard tout particulier aux identités culturelles et à la migration. La photographe
+                    a ainsi opté pour des portraits pris sur le vif, dénués de touts artifices, pour montrer le vrai visage du Maroc. Des réfugiés syriens au Liban aux immigrants marocains prêts à risquer leur vie pour rejoindre l’autre rive de la Méditerranée,
+                    un regard suffit parfois pour se plonger dans l’histoire et les émotions des sujets photographiés.
+                    <br><br> “Puisant dans mon propre héritage, j’ai séjourné au sein de diverses communautés et utilisé le filtre de ma position intime de Marocaine de naissance pour révéler, dans ces portraits, la subjectivité des personnes que j’ai
+                    photographiées.“
+                </p>
+                <h4>Couleurs principales</h4>
+                <div class="colors">
+                    <div class="green2" data-hover="Dark Slate Gray - #3B5A5D"></div>
+                    <div class="red2" data-hover="Ruby Red - #96232A"></div>
+                    <div class="skin2" data-hover="Tuscany - #B79894"></div>
+                </div>
+            </div>
+            <img src="./assets/maroc.jpg" id="maroc" alt="Marocain" />
         </div>
-        <img src="./assets/maroc.jpg" id="maroc" alt="Marocain" />
-      </div>
     </div>
     <div class="third">
-      <h3 class="subtitle3">Portraits des Apatani en Inde - Rémi Globetrotte</h3>
-      <div class="cursors">
-        <img src="./assets/inde.webp" id="inde" alt="Inde" />
-        <div class="right-text">
-          <h4 id="title1">Faites vos propres réglages !</h4>
-          <div class="settings settings-inde">
-            <label>Luminosité</label>
-            <input
-              class="slider"
-              id="luminosite"
-              type="range"
-              min="0"
-              max="200"
-              value="100"
-              step="1"
-              onchange="applyFilter('#inde', 'settings-inde')"
-              data-filter="brightness"
-              data-scale="%"
-            /><br />
-            <label>Contraste</label>
-            <input class="slider" id="contraste" type="range" min="0" max="200" value="100" step="1"    onchange="applyFilter('#inde', 'settings-inde')" data-filter="contrast" data-scale="%" /><br />
-            <label>Saturation</label>
-            <input class="slider" id="saturation" type="range" min="0" max="200" value="100" step="1"    onchange="applyFilter('#inde', 'settings-inde')" data-filter="saturate" data-scale="%" /><br />
-            <label>Sépia</label>
-            <input class="slider" id="sepia" type="range" min="0" max="100" value="0" step="1"   onchange="applyFilter('#inde', 'settings-inde')" data-filter="sepia" data-scale="%" /><br />
-          </div>
-          <h4 id="title3">Quelques informations</h4>
-          <p>
-            Les Apatani ne possèdent aucune ou très peu de ressources écrites. Leur culture est transmise de manière exclusivement orale. Selon certaines sources, ce groupe vit dans l'État de l'Arunachal Pradesh au nord de l'Inde. Cette communauté aurait effectuée une migration depuis l’extrême nord de l’Arunchal en suivant les rivières  Kurrung et Kiimey. Rémi Globerotte nous raconte sa rencontre avec eux.
-            <br><br>
-            “Les dames en costumes traditionnels et toutes parées d’une multitude de colliers en pierres plus ou moins précieuses passent devant toutes les maisons et distribuent de la poudre et de la bière de riz aux habitants qui attendent devant chez eux.”
-            <br><br>
-            Toutes les photos de cette série n’ont pas été choisi par hasard. En effet, dans chaque photographie on retrouve des couleurs complémentaires (vert et rouge) qui reflètent et unissent ces différentes cultures.
-          </p>
-          <h4>Couleurs principales</h4>
-          <div class="colors">
-            <div class="green3" data-hover="Spanish Green - #12945A"></div>
-            <div class="red3" data-hover="Sizzling Red - #FD3959"></div>
-            <div class="skin3" data-hover="Gold Crayola - #EBBF8F"></div>
-          </div>
+        <h3 class="subtitle3">Portraits des Apatani en Inde - Rémi Globetrotte</h3>
+        <div class="cursors">
+            <img src="./assets/inde.webp" id="inde" alt="Inde" />
+            <div class="right-text">
+                <h4 id="title1">Faites vos propres réglages !</h4>
+                <div class="settings settings-inde">
+                    <label>Luminosité</label>
+                    <input class="slider" id="luminosite" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#inde', 'settings-inde')" data-filter="brightness" data-scale="%" /><br />
+                    <label>Contraste</label>
+                    <input class="slider" id="contraste" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#inde', 'settings-inde')" data-filter="contrast" data-scale="%" /><br />
+                    <label>Saturation</label>
+                    <input class="slider" id="saturation" type="range" min="0" max="200" value="100" step="1" onchange="applyFilter('#inde', 'settings-inde')" data-filter="saturate" data-scale="%" /><br />
+                    <label>Sépia</label>
+                    <input class="slider" id="sepia" type="range" min="0" max="100" value="0" step="1" onchange="applyFilter('#inde', 'settings-inde')" data-filter="sepia" data-scale="%" /><br />
+                </div>
+                <h4 id="title3">Quelques informations</h4>
+                <p>
+                    Les Apatani ne possèdent aucune ou très peu de ressources écrites. Leur culture est transmise de manière exclusivement orale. Selon certaines sources, ce groupe vit dans l'État de l'Arunachal Pradesh au nord de l'Inde. Cette communauté aurait effectuée
+                    une migration depuis l’extrême nord de l’Arunchal en suivant les rivières Kurrung et Kiimey. Rémi Globerotte nous raconte sa rencontre avec eux.
+                    <br><br> “Les dames en costumes traditionnels et toutes parées d’une multitude de colliers en pierres plus ou moins précieuses passent devant toutes les maisons et distribuent de la poudre et de la bière de riz aux habitants qui attendent
+                    devant chez eux.”
+                    <br><br> Toutes les photos de cette série n’ont pas été choisi par hasard. En effet, dans chaque photographie on retrouve des couleurs complémentaires (vert et rouge) qui reflètent et unissent ces différentes cultures.
+                </p>
+                <h4>Couleurs principales</h4>
+                <div class="colors">
+                    <div class="green3" data-hover="Spanish Green - #12945A"></div>
+                    <div class="red3" data-hover="Sizzling Red - #FD3959"></div>
+                    <div class="skin3" data-hover="Gold Crayola - #EBBF8F"></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <footer>
-      <div class="firstcolumn">
-        <a href="#" class="btn btn-primary">
-        <svg id="logo" width="354" height="144" viewBox="0 0 354 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="firstcolumn">
+            <a href="#" class="btn btn-primary">
+                <svg id="logo" width="354" height="144" viewBox="0 0 354 144" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M18.7889 31.4769C30.4125 31.4769 38.6484 29.4325 38.6484 19.678C38.6484 9.92348 30.4125 7.87912 18.7889 7.87912H4.01104V8.8721C6.58109 8.8721 8.21658 11.9678 8.21658 15.5893V40.9978C8.21658 44.9697 6.81474 48.007 4.3615 48.007V49H23.5785V48.007C21.0669 48.007 16.6861 47.5982 16.6861 40.9978V31.4769H18.7889ZM16.6861 8.8721H18.7889C24.5131 8.8721 29.0691 9.28097 29.0691 19.678C29.0691 30.0166 24.5131 30.4839 18.7889 30.4839H16.6861V8.8721ZM63.1437 7.35343C50.2935 7.35343 42.9922 17.1664 42.9922 28.7316C42.9922 40.3553 50.2935 49.5257 63.1437 49.5257C75.994 49.5257 83.2953 40.3553 83.2953 28.7316C83.2953 17.1664 75.994 7.35343 63.1437 7.35343ZM63.1437 48.5327C56.1929 48.5327 52.9804 44.7945 52.9804 28.7316C52.9804 12.7272 56.1929 8.3464 63.1437 8.3464C70.0362 8.3464 73.1903 12.7272 73.1903 28.7316C73.1903 44.7945 70.0362 48.5327 63.1437 48.5327ZM121.225 42.2828C118.363 31.769 113.69 29.1989 109.893 29.6078C116.844 28.79 121.283 26.1616 121.283 19.0355C121.283 9.28097 113.106 7.87912 101.482 7.87912H86.9966V8.8721C89.5667 8.8721 91.2022 10.4492 91.2022 14.0706V41.9323C91.2022 45.9043 89.5083 48.007 86.9966 48.007V49H103.994V48.007C101.541 48.007 99.6717 45.9043 99.6717 41.9323V30.2503H102.417C102.417 30.2503 107.791 30.2503 109.718 36.2665C113.807 48.9416 112.288 48.9416 122.685 49H128.059V48.007C126.54 47.8902 122.393 46.722 121.225 42.2828ZM101.482 29.2573H99.6717V8.8721H101.482C107.148 8.8721 111.763 8.8721 111.763 19.0355C111.763 29.1989 107.148 29.2573 101.482 29.2573ZM128.524 7.87912V19.6196H129.517C129.984 9.16415 142.367 8.8721 142.367 8.8721H143.477V41.9323C143.477 45.9043 140.965 48.007 138.512 48.007V49H156.911V48.007C154.458 48.007 151.947 45.9043 151.947 41.9323V8.8721H153.056C153.056 8.8721 165.498 9.16415 165.965 19.6196H166.958V7.87912H128.524ZM203.479 42.2828C200.617 31.769 195.944 29.1989 192.147 29.6078C199.098 28.79 203.537 26.1616 203.537 19.0355C203.537 9.28097 195.36 7.87912 183.736 7.87912H169.25V8.8721C171.82 8.8721 173.456 10.4492 173.456 14.0706V41.9323C173.456 45.9043 171.762 48.007 169.25 48.007V49H186.248V48.007C183.794 48.007 181.925 45.9043 181.925 41.9323V30.2503H184.671C184.671 30.2503 190.044 30.2503 191.972 36.2665C196.061 48.9416 194.542 48.9416 204.939 49H210.313V48.007C208.794 47.8902 204.647 46.722 203.479 42.2828ZM183.736 29.2573H181.925V8.8721H183.736C189.402 8.8721 194.016 8.8721 194.016 19.0355C194.016 29.1989 189.402 29.2573 183.736 29.2573ZM246.325 43.7431C246.325 43.7431 245.799 42.2244 231.489 7.87912H230.496L220.391 34.5142C214.667 48.3575 213.206 47.8902 211.688 48.007V49H226.057V48.007C216.828 48.4743 220.449 37.4932 220.449 37.4932H234.292L236.045 41.7571C236.045 41.7571 239.082 48.007 234.526 48.007V49H251.231V48.007C249.713 47.8902 248.311 48.4159 246.325 43.7431ZM220.624 36.5002L226.991 19.4444L233.942 36.5002H220.624ZM254.328 7.87912V8.8721C256.898 8.8721 259.293 10.4492 259.293 14.0706V41.9323C259.293 45.9043 256.839 48.007 254.328 48.007V49H272.727V48.007C270.274 48.007 267.762 45.9043 267.762 41.9323V14.0706C267.762 10.4492 270.215 8.8721 272.727 8.8721V7.87912H254.328ZM275.919 7.87912V19.6196H276.912C277.379 9.16415 289.762 8.8721 289.762 8.8721H290.872V41.9323C290.872 45.9043 288.36 48.007 285.907 48.007V49H304.306V48.007C301.853 48.007 299.341 45.9043 299.341 41.9323V8.8721H300.451C300.451 8.8721 312.893 9.16415 313.36 19.6196H314.353V7.87912H275.919ZM339.892 26.9793L330.897 21.0214C323.304 16.0566 325.582 8.3464 331.89 8.3464C341.236 8.3464 344.799 16.8743 345.909 19.9701H346.902V10.1571C346.902 10.1571 341.878 7.35343 331.89 7.35343C322.661 7.35343 319.799 11.7926 319.799 11.7926C314.951 18.1593 318.047 24.0004 326.341 29.1989L335.336 34.8647C342.462 40.0632 340.535 48.5327 334.285 48.5327C323.888 48.5327 320.559 38.2525 319.274 34.6895H318.281V45.9043C318.281 45.9043 322.953 49.5257 334.285 49.5257C343.689 49.5257 346.434 44.736 346.434 44.736C350.815 38.3693 347.603 32.061 339.892 26.9793Z"
             fill="#131312"
@@ -255,15 +152,15 @@ Des réfugiés syriens au Liban aux immigrants marocains prêts à  risquer leur
           />
         </a>
         </svg>
-      </div>
-      <div class="secondcolumn">
-        <h5 id="team">Team</h5>
-        <h5 id="vanon"><a href="https://www.linkedin.com/in/vanon-borget/" title="Vanon Borget" target="blank">Vanon BORGET</a></h5>
-        <h5 id="clement"><a href="https://www.linkedin.com/in/clément-calles-aa280b1b8/" title="Clément Calles" target="blank">Clément CALLES</a></h5>
-        <h5 id="henry"><a href="https://www.linkedin.com/in/henry-reveillerguillon/" title="Henry Reveiller-Guillon" target="blank">Henry REVEILLER-GUILLON</a></h5>
-      </div>
-      <div class="thirdcolumn">
-        <svg id="mmi" width="77" height="29" viewBox="0 0 77 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+        </div>
+        <div class="secondcolumn">
+            <h5 id="team">Team</h5>
+            <h5 id="vanon"><a href="https://www.linkedin.com/in/vanon-borget/" title="Vanon Borget" target="blank">Vanon BORGET</a></h5>
+            <h5 id="clement"><a href="https://www.linkedin.com/in/clément-calles-aa280b1b8/" title="Clément Calles" target="blank">Clément CALLES</a></h5>
+            <h5 id="henry"><a href="https://www.linkedin.com/in/henry-reveillerguillon/" title="Henry Reveiller-Guillon" target="blank">Henry REVEILLER-GUILLON</a></h5>
+        </div>
+        <div class="thirdcolumn">
+            <svg id="mmi" width="77" height="29" viewBox="0 0 77 29" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
             <path
               d="M70.1273 8.71464C69.6851 7.4775 68.9481 6.36771 67.9347 5.34889C67.124 4.58477 66.1474 4.00259 64.9866 3.58415C63.8258 3.1657 62.5544 2.96558 61.191 2.96558C57.7454 2.96558 54.9447 4.2573 52.8074 6.82254C51.1122 4.2573 48.5879 2.96558 45.2161 2.96558L45.2345 2.98377C45.0871 2.98377 44.9397 2.96558 44.7739 2.96558C41.3283 2.96558 38.5276 4.2573 36.3903 6.82254C34.6951 4.2573 32.1709 2.96558 28.799 2.96558L28.8174 2.98377C28.6884 2.98377 28.5595 2.96558 28.4305 2.96558H28.3752C24.9481 2.96558 22.1658 4.2391 20.0285 6.76796C19.6968 6.27674 19.3099 5.80372 18.8492 5.36708C18.6466 5.18515 18.4439 5.00322 18.2228 4.83948C16.6935 3.60234 14.7588 2.96558 12.4003 2.96558H12.3819C12.3451 2.96558 12.2898 2.96558 12.2529 2.96558C12.1977 2.96558 12.1424 2.96558 12.1055 2.96558C9.43384 2.96558 7.14908 3.74789 5.26968 5.29431V3.27486H0V20.5038H0.0368509H5.38023H5.41709V13.3357C5.41709 12.3897 5.56449 11.571 5.8593 10.8614C6.1541 10.1519 6.55946 9.56972 7.05695 9.09669C7.68342 8.5509 8.40201 8.16884 9.17588 7.95052C9.23116 7.93233 9.28643 7.91413 9.32328 7.91413C9.34171 7.91413 9.36013 7.91413 9.39699 7.89594C9.89447 7.78678 10.392 7.71401 10.9263 7.71401C12.4372 7.71401 13.6901 8.18703 14.7404 9.11489C15.7722 10.0609 16.2881 11.5346 16.2881 13.5904V20.5038H16.3065H16.325H21.6683H21.6868H21.7052V13.081C21.7236 12.2441 21.871 11.4982 22.1474 10.8432C22.4422 10.1337 22.8476 9.53333 23.3635 9.0785C23.8794 8.60548 24.469 8.25981 25.1323 8.04149C25.7956 7.82317 26.4958 7.71401 27.2328 7.69581C28.7437 7.69581 30.0151 8.16884 31.0469 9.09669C32.0787 10.0427 32.5946 11.5346 32.5946 13.5722V20.4857H32.6131H32.6683H37.9564H37.9749H38.0301V13.3357C38.0301 12.3897 38.1776 11.571 38.4724 10.8614C38.7672 10.1519 39.1725 9.55152 39.6884 9.09669C40.2044 8.62367 40.794 8.278 41.4573 8.05968C42.1206 7.84136 42.8208 7.71401 43.5578 7.71401C45.0687 7.71401 46.34 8.18703 47.3903 9.11489C48.4221 10.0609 48.938 11.5528 48.938 13.5904V20.5038H49.0854H54.3551H54.4841V13.3357C54.4841 12.3897 54.6315 11.571 54.9263 10.8614C55.2211 10.1519 55.6265 9.55152 56.1424 9.09669C56.6583 8.62367 57.2479 8.278 57.9112 8.05968C58.5745 7.84136 59.2747 7.71401 60.0301 7.71401C61.541 7.71401 62.8124 8.18703 63.8626 9.11489C64.9129 10.0427 65.4104 11.5528 65.4104 13.5904V20.5038H70.7906V12.8081C70.7906 11.3163 70.5695 9.95178 70.1273 8.71464Z"
