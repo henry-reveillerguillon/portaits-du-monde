@@ -1,125 +1,112 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-
 html {
-    background-color: #fffbf6;
-    scroll-behavior: smooth;
+  background-color: #fffbf6;
+  scroll-behavior: smooth;
 }
-
 .home {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  background-color: black;
 }
 
 .home h1 {
-    font-family: "Butler";
-    font-weight: 700;
-    font-size: 48px;
-    color: #fffbf7;
-    z-index: 2;
-    margin-top: 2%;
-    text-align: center;
-    margin-bottom: -8%;
+  font-family: "Butler";
+  font-weight: 700;
+  font-size: 48px;
+  color: #fffbf7;
+  z-index: 2;
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: -8%;
 }
-
 .quotes {
-    width: 13.2%;
-    z-index: 2;
-    margin-left: 8.5%;
-    margin-top: 8%;
-    position: relative;
+  width: 13.2%;
+  z-index: 2;
+  margin-left: 8.5%;
+  margin-top: 8%;
+  position: relative;
 }
-
 .home img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-    object-fit: cover;
-    object-position: center 70%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  object-fit: cover;
+  object-position: center 70%;
 }
-
 .home hr {
-    width: 92%;
-    align-items: center;
-    color: #fffbf7;
-    display: block;
-    margin: auto;
-    margin-top: 9%;
-    border-color: #fffbf7;
-    z-index: 5;
-    border-radius: 300px;
+  width: 92%;
+  align-items: center;
+  color: #fffbf7;
+  display: block;
+  margin: auto;
+  margin-top: 9%;
+  border-color: #fffbf7;
+  z-index: 5;
+  border-radius: 300px;
 }
-
 .home h2 {
-    z-index: 3;
-    font-family: "Butler";
-    font-weight: 700;
-    font-size: 60px;
-    color: #fffbf7;
-    width: 70.5%;
-    text-align: left;
-    margin-left: 17%;
-    margin-top: -6%;
-    margin-right: 10%;
-    position: relative;
+  z-index: 3;
+  font-family: "Butler";
+  font-weight: 700;
+  font-size: 60px;
+  color: #fffbf7;
+  width: 70.5%;
+  text-align: left;
+  margin-left: 17%;
+  margin-top: -6%;
+  margin-right: 10%;
+  position: relative;
 }
-
 .author {
-    z-index: 3;
-    text-align: right;
-    font-family: "Butler";
-    font-weight: 300;
-    color: #fffbf7;
-    font-size: 30px;
-    margin-right: 17%;
+  z-index: 3;
+  text-align: right;
+  font-family: "Butler";
+  font-weight: 300;
+  color: #fffbf7;
+  font-size: 30px;
+  margin-right: 17%;
 }
-
 .first {
     padding-bottom: 100px;
 }
-
 h3 {
-    font-family: "Butler";
-    font-weight: 700;
-    font-size: 38px;
-    color: #131312;
+  font-family: "Butler";
+  font-weight: 700;
+  font-size: 38px;
+  color: #131312;
 }
-
 .first img {
-    width: 37.5%;
-    margin-left: 8.5%;
-    margin-top: 11px;
+  width: 37.5%;
+  margin-left: 8.5%;
+  margin-top: 11px;
 }
-
 .cursors {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
-
 h4 {
     font-family: "Butler";
-    font-weight: 700;
-    font-size: 24px;
-    color: #131312;
-}
+  font-weight: 700;
+  font-size: 24px;
+  color: #131312;
 
+}
 .right-text {
     flex-direction: row;
     margin-left: 5%;
     margin-right: 8.5%;
 }
-
 p {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 18px;
     margin-top: 12px;
@@ -127,7 +114,6 @@ p {
     line-height: 25px;
     text-align: justify;
 }
-
 .green {
     width: 44px;
     height: 44px;
@@ -135,24 +121,22 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .green:hover {
     transform: scale(1.05);
 }
-
+      
 .green:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -161,13 +145,11 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .green:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .red {
     width: 44px;
     height: 44px;
@@ -175,24 +157,21 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .red:hover {
     transform: scale(1.05);
 }
-
 .red:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -201,37 +180,32 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .red:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .skin {
     width: 44px;
     height: 44px;
     background-color: #CA9073;
     border-radius: 9px;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .skin:hover {
     transform: scale(1.05);
 }
-
 .skin:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -240,44 +214,31 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .skin:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .colors {
     display: flex;
     margin-top: 9px;
 }
-
 #title1 {
     margin-top: 24px;
 }
-
 .settings {
     margin-top: 21px;
     margin-bottom: 38px;
 }
-
 #afghane {
     object-fit: cover;
 }
-
 .subtitle {
     position: relative;
     display: inline-block;
     margin-top: 82px;
     margin-left: 8.5%;
 }
-
-.subtitlesecond {
-    position: relative;
-    display: inline-block;
-    margin-left: 8.5%;
-}
-
 .subtitle::after {
     content: "";
     position: absolute;
@@ -288,20 +249,17 @@ p {
     bottom: 7px;
     left: 4px;
 }
-
 .second {
     position: relative;
     background-color: #F8F0E6;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .subtitle2 {
     position: relative;
     display: inline-block;
 }
-
-.subtitlesecond::after {
+.subtitle2::after {
     content: "";
     position: absolute;
     z-index: 0;
@@ -311,7 +269,6 @@ p {
     bottom: 7px;
     left: 4px;
 }
-
 #maroc {
     width: 41%;
     height: auto;
@@ -319,7 +276,6 @@ p {
     object-fit: cover;
     margin-left: 5%;
 }
-
 .green2 {
     width: 44px;
     height: 44px;
@@ -327,24 +283,22 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .green2:hover {
     transform: scale(1.05);
 }
-
+      
 .green2:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -353,13 +307,11 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .green2:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .red2 {
     width: 44px;
     height: 44px;
@@ -367,24 +319,22 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .red2:hover {
     transform: scale(1.05);
 }
-
+      
 .red2:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -393,37 +343,33 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .red2:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .skin2 {
     width: 44px;
     height: 44px;
     background-color: #B79894;
     border-radius: 9px;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .skin2:hover {
     transform: scale(1.05);
 }
-
+      
 .skin2:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -432,17 +378,14 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .skin2:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .left-text {
     margin-left: 8.5%;
 }
-
 .green3 {
     width: 44px;
     height: 44px;
@@ -450,24 +393,22 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .green3:hover {
     transform: scale(1.05);
 }
-
+      
 .green3:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -476,13 +417,11 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .green3:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .red3 {
     width: 44px;
     height: 44px;
@@ -490,24 +429,22 @@ p {
     border-radius: 9px;
     margin-right: 1.8%;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .red3:hover {
     transform: scale(1.05);
 }
-
+      
 .red3:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -516,37 +453,33 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .red3:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 .skin3 {
     width: 44px;
     height: 44px;
     background-color: #EBBF8F;
     border-radius: 9px;
     position: relative;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     transition: ease-in-out 0.3s;
 }
-
 .skin3:hover {
     transform: scale(1.05);
 }
-
+      
 .skin3:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
     width: 220px;
     background-color: rgb(36, 36, 36);
-    color: #fffbf7;
-    ;
+    color: #fffbf7;;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -555,13 +488,11 @@ p {
     z-index: 1;
     left: 0;
     top: 110%;
-}
-
+}    
 .skin3:hover:before {
     opacity: 1;
     visibility: visible;
 }
-
 #inde {
     width: 41%;
     height: auto;
@@ -569,14 +500,12 @@ p {
     margin-left: 8.5%;
     margin-top: 13px;
 }
-
 .subtitle3 {
     position: relative;
     display: inline-block;
     margin-top: 82px;
     margin-left: 8.5%;
 }
-
 .subtitle3::after {
     content: "";
     position: absolute;
@@ -587,142 +516,121 @@ p {
     bottom: 7px;
     left: 4px;
 }
-
 footer {
     background-color: #F8F0E6;
     padding-top: 68px;
     padding-bottom: 56px;
     display: flex;
 }
-
 .firstcolumn {
     padding-left: 8.5%;
 }
-
 .third {
     padding-bottom: 100px;
 }
-
 #team {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 700;
     margin-bottom: 27px;
     font-size: 16px;
 }
-
 #vanon {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     margin-bottom: 13px;
     font-size: 16px;
 }
-
 #vanon a {
     text-decoration: none;
     color: black;
 }
-
 #clement {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     margin-bottom: 13px;
     font-size: 16px;
 }
-
 #clement a {
     text-decoration: none;
     color: black;
 }
-
 #henry {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
 }
-
 #henry a {
     text-decoration: none;
     color: black;
 }
-
 .thirdcolumn {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     padding-right: 8.5%;
     padding-left: 8.5%;
 }
-
 .secondcolumn {
     flex-direction: row;
     padding-left: 9.5%;
 }
-
 #mmi {
     margin-bottom: 16px;
 }
-
 #made {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 23px;
 }
-
 #allright {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
 }
-
 .settings {
     width: 100%;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 18px;
 }
-
 .slider {
     -webkit-appearance: none;
     width: 100%;
     height: 15px;
-    border-radius: 5px;
+    border-radius: 5px;   
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
-}
-
-.slider::-webkit-slider-thumb {
+  }
+  
+  .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
     height: 25px;
-    border-radius: 50%;
+    border-radius: 50%; 
     background: #073A26;
     cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
+  }
+  
+  .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background: #073A26;
     cursor: pointer;
-}
-
+  }
 #luminosite {
-    margin-bottom: 20px;
+      margin-bottom: 20px;
 }
-
 #contraste {
     margin-bottom: 20px;
 }
-
 #saturation {
     margin-bottom: 20px;
 }
-
 .mouse {
     z-index: 3;
     display: block;
@@ -730,8 +638,7 @@ footer {
     margin-top: 11.5%;
     margin-bottom: 5%;
     animation: bounds 1s infinite ease-in-out alternate-reverse;
-}
-
+  }
 @keyframes bounds {
     from {
         transform: translateY(0);
